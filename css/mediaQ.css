@@ -3,6 +3,7 @@
 /* Adjust the display for small screens here */
 /* } */
 
+
 @media only screen and (max-width: 710px) {
 
     .main-container {
@@ -58,14 +59,6 @@
         color: white;
         left: 20px;
     }
-}
-
-
-
-@media only screen and (min-width: 1441px) {
-    /* Styles for extra large screens */
-
-    /* Adjust the display for extra large screens here */
 }
 
 /* 441 */

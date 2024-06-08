@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="logo/logo.svg" type="image/png">
     <link rel="stylesheet" href="css/complete.css">
+    <link rel="stylesheet" href="css/complete2.css">
 </head>
 <body>
     <header>
@@ -17,16 +18,115 @@
         </div>
     </header>
 
-    <div class="body-container">
+    <div class="body-container-con">
         <div class="main-container">
             <div class="congrat-container">
                 <h1>Congratulations!</h1>
                 <p class="subheading">You have successfully completed the quiz</p>
+            <!-- new code for results -->
+            <!--/////////////////////////////////////////////////////////  -->
+                <div class="loading-Container"> 
+                    <!-- user -->
+                <div class="user-ans-detail">
+                    <div class="user-info-container">
+                        <div class="logo-user">
+                               <!-- only first letter of username e.g om so the letter o will display -->
+                           <p>O</p>
+                        </div>
+                        <div class="user-text-info">
+                           <p class="user-name">Om jamnekar</p>
+                           <p class="user-email">omjamnekar@gmail.com</p>
+                        </div>
+
+                   </div>
+                   <div class="user-anwsr-singleton">
+               
+                        <div class="user-ans-single">
+                            <p>Q1</p>
+
+                            <p>Corn Syrup, a common sweetener in processed foods, is derived from the starch of corn kernels through a process involving enzymatic hydrolysis ?</p>
+                            <!-- user given answer -->
+                             <!-- use isred for wrong answer -->
+                            <p class="isgreen">Delhi</p>
+                            
+                        </div>  
+                        <div class="arrow-btn">
+                            <img src="logo/arrow.svg" alt="arrow">
+                        </div>
+                        <div class="main-container-expand isgreen"> 
+                            <h1 class="statement">
+                                This statement is <span class="primary-color-statement">true</span>
+                            </h1>
+                            <p class="description">description:</p>
+                            <p class="desc-dist">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia vitae officiis eos iste sapiente consectetur quisquam ducimus, neque temporibus cum laborum, alias perferendis sint cumque mollitia architecto, nesciunt repudiandae porro.</p>
+
+                        </div>
+                        <div class="bottom-border"></div>
+                   </div>
+                </div>
+                    <!-- marks -->
+                   <div class="left-container">
+                    <div class="marks">
+                        <div class="outer-circle">
+                               <div class="inner-circle">
+                                   <p>80%</p>
+                               </div>
+                        </div>   
+                        <div class="number">
+                           <h1>4.5 / 12</h1>
+                           <p>points</p>
+                        </div>
+                  
+                  
+                    </div>
+                  
+                    <div class="dev-data">
+                        <h1>Developers</h1>
+                        <div class="divider"></div>
+                        <div class="dev-info">
+                            <div class="dev-logo">
+                                <p>Om Jamnekar (App Dev)</p>
+                            </div>
+
+                           <div class="dev-links">
+                                <a href="https://github.com/omjamnekar"><div class="back-image-dev"><img class="logo-dev" src="logo/github.png" alt="GitHub"></div></a>
+                                <a href="https://www.linkedin.com/in/om-jamnekar-961aa5256/"><div class="back-image-dev"><img  class="logo-dev" src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk4Mi1kMy0xMC5wbmc.pngg" alt="Image description"></div></a>
+                            </div>
+                        </div>
+                        <div class="divider-2"></div>
+                        <div class="dev-info">
+                            <div class="dev-logo">
+                                <p>Shiva Aleti (Web Dev)</p>
+                            </div>
+
+                           <div class="dev-links">
+                                <a href="https://github.com/aletishiva218"><div class="back-image-dev"><img class="logo-dev" src="logo/github.png" alt="GitHub"></div></a>
+                                <a href="https://www.linkedin.com/in/shiva-aleti-b06443237/"><div class="back-image-dev"><img  class="logo-dev" src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk4Mi1kMy0xMC5wbmc.pngg" alt="Image description"></div></a>
+                            </div>
+                        </div>
+
+                </div>
+                <div class="dev-data">
+                    <h1>Project</h1>
+
+                    <div class="divider"></div>
+                    <p class="mystatement">Thank you so much for your assistance with this mini-project. It is a crucial part of our research, we use this research in further development and we truly appreciate your support.</p>
+                    
+               
+                </div>
+                <div class="dev-data">
+                    <h1>connect us</h1>
+                    <div class="divider"></div>
+                    <p class="app-shower">you can follow us with our project</p>
+                    <a href="https://github.com/aletishiva218/nutrition-feedback-mern/tree/main">open source code</a>                </div>
+            </div>
+
+            
+                
             </div>
         </div>
-       
-  
-    </div>
+
 
 </body>
+<script src="js/complete.js"></script>
 </html>
